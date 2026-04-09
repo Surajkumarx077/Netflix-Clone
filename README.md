@@ -2,12 +2,6 @@
 
 Full-stack Netflix-style application using React (frontend), Spring Boot (backend), and PostgreSQL (database).
 
-## Homepage Screenshot
-
-<p align="center">
-  <img src="docs/images/homepage.png" alt="Netflix Clone Homepage" width="100%" />
-</p>
-
 ## What Is Included
 
 - Frontend: React + Vite
