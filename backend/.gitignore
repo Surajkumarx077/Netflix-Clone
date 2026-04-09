@@ -1,0 +1,48 @@
+*.class
+*.jar
+*.war
+
+.classpath
+.project
+.settings/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings
+*.db
+*.sqlite
+
+target/
+logs/
+.DS_Store
+
+# Maven
+.m2/
+*.iml
+.idea
+
+# Spring Boot
+.mvn/
+mvnw
+mvnw.cmd
+
+# Environment
+.env
+.env.local
+application-dev.properties
+application-prod.properties
+
+# Misc
+node_modules/
+dist/
+*.log
+.gradle
+
+# IDE
+*.class
+*.classpath
+.factorypath

@@ -1,0 +1,30 @@
+.watchlist-container {
+  padding: 100px 4% 3rem;
+  min-height: 100vh;
+  background-color: var(--bg-color);
+}
+
+.watchlist-header {
+  margin-bottom: 2rem;
+}
+
+.watchlist-header h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+}
+
+.watchlist-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.empty-state {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  color: var(--text-secondary);
+  font-size: 1.2rem;
+}

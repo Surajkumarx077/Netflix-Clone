@@ -1,0 +1,46 @@
+.admin-container {
+  padding: 100px 4% 3rem;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: var(--bg-color);
+}
+
+.admin-card {
+  width: 100%;
+  max-width: 600px;
+  padding: 3rem;
+  background-color: rgba(20, 20, 20, 0.8);
+}
+
+.admin-card h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.admin-subtitle {
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+}
+
+.admin-form {
+  display: flex;
+  flex-direction: column;
+}
+
+textarea.input-base {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.select-input {
+  appearance: none;
+  background-color: rgba(0, 0, 0, 0.9);
+  cursor: pointer;
+}
+
+.upload-btn {
+  margin-top: 1rem;
+  justify-content: center;
+  font-size: 1.1rem;
+}

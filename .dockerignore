@@ -1,0 +1,71 @@
+# Docker
+.dockerignore
+Dockerfile*
+dockerfile*
+docker-compose*
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# Java
+target/
+*.class
+*.jar
+*.war
+*.ear
+.classpath
+.project
+.settings/
+bin/
+out/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# Documentation
+README.md
+docs/
+**/*.md
+
+# Tests
+**/__tests__
+**/*.test.js
+**/*.test.ts
+**/test
+**/tests
+coverage/
+.nyc_output/
+
+# Environment
+.env
+.env.*
+.env.local
+
+# Temporary
+tmp/
+temp/
+.tmp/
+*.bak
+*.log
